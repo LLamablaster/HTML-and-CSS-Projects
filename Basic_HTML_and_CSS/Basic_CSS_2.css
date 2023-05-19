@@ -1,0 +1,24 @@
+.font_1 {
+	background-color: black;
+	color: yellow;
+	font-size: large;
+}
+.font_2 {
+	background-color: darkblue;
+	color: white;
+	font-size: medium;
+}
+.bleeding_eyes {
+	background-color: red;
+	color: lime;
+	font-size: small;
+	font-weight: bold;
+	text-decoration: italic;
+	text-shadow: 10px -2px chartreuse;
+}
+p {
+	color: snow;
+	background: black;
+	font-weight: bold;
+	text-align: center;
+}
