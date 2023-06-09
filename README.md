@@ -6,9 +6,11 @@ There are a number of assignments displaying basic use of HTML, CSS, and JavaScr
 These include those found in the Basic_HTML_and_CSS and Basic_HTML_and_JavaScript_1 folders.
 
 ## Projects
-[Space Station Website](https://github.com/LLamablaster/HTML-and-CSS-Projects/tree/main/Space_Station_Website)
-[Bootstrap 4 Website](https://github.com/LLamablaster/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
-[Portfolio Website](https://github.com/LLamablaster/HTML-and-CSS-Projects/tree/main/portfolio-site)
+  [Space Station Website](https://github.com/LLamablaster/HTML-and-CSS-Projects/tree/main/Space_Station_Website)
+  
+  [Bootstrap 4 Website](https://github.com/LLamablaster/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
+  
+  [Portfolio Website](https://github.com/LLamablaster/HTML-and-CSS-Projects/tree/main/portfolio-site)
 
 ### Space Station Website
 This project introduced some slightly more advanced use of CSS to style and animate nested images.
