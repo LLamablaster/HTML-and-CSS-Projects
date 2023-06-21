@@ -134,6 +134,56 @@
         </div>
         <!-- END SHOWTIMES -->
 
+        <!-- JUMBOTRON HEADING -->
+        <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+            <div class="container">
+                <h1 class="display-4 hidden-sm-down" style="color:#fff; font-weight:900; text-transform:uppercase">
+                Movie Deals</h1>
+                <p class="lead">
+                    Check out our monthly deals...
+                </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    View Deals
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Deals of the Week</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body text-left">
+                                Why would I have a modal for the signup form when there is an email form literally right below this?<br>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Email:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Reason for not using other signup field:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </button>
+            </div>
+        </div>
+        <!-- END JUMBOTRON -->
+
+
         <!-- MAILING LIST SIGNUP -->
         <div class="text-center" id="deals">
             <h1 class="text-primary my-5">Sign up for movie club rewards!</h1>
@@ -142,7 +192,10 @@
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                         placeholder="Enter email">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="bottom"
+                    data-content="Thanks for joining us!">
+                    Sign Up
+                </button>
             </form>
         </div>
         <!-- END MAILING LIST SIGNUP -->
@@ -197,5 +250,9 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
-
+<script>
+    $('.popover-dismiss').popover({
+            trigger: 'focus'
+        })
+</script>
 </html>
